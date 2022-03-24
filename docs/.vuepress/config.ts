@@ -1,9 +1,11 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
-
+// import { GoogleFontsPlugin  } from "google-fonts-webpack-plugin"
+// const GoogleFontsPlugin = require("google-fonts-webpack-plugin");
 export default defineUserConfig<DefaultThemeOptions>({
     // 站点配置
-    lang: 'en-US',
+    // lang: 'en-US',
+    lang: 'zh-TW',
     title: '全自動股票管理表',
     description: 'Just playing around',
 
@@ -11,6 +13,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     theme: '@vuepress/theme-default',
     themeConfig: {
         logo: 'https://vuejs.org/images/logo.png',
+        contributorsText:"作者",
+        lastUpdatedText:"最後更新",
         // navbar: [
         //     // NavbarItem
         //     {
@@ -28,11 +32,12 @@ export default defineUserConfig<DefaultThemeOptions>({
         //導航欄
         navbar: [
             { text: 'Home', link: '/' },  //text:導航標題內容
-            { text: 'TimeLine', link: '/timeline/' },
             {
                 text: '指南',
                 children: [
-                    { text: '快速上手', link: '/StockProfolioDocs/' }  //item： 子導航
+                    { text: '快速上手', link: '/StockProfolioDocs/README.md', },  //item： 子導航
+                    { text: '基本功能介紹', link: '/StockProfolioDocs/Introduction/Introduction1.md', activeMatch: '^/StockProfolioDocs/Introduction/',  },
+                    { text: '收費版限定功能', link: '/StockProfolioDocs/PayOnly/test1.md', activeMatch: '^/StockProfolioDocs/PayOnly/', },
                 ]
             },
             {
@@ -55,16 +60,24 @@ export default defineUserConfig<DefaultThemeOptions>({
         sidebar: {
             '/StockProfolioDocs/': [
                 '/StockProfolioDocs/',
-                '/StockProfolioDocs/Category_1/',
+                // '/StockProfolioDocs/Introduction/',
                 {
-                    text: '類別2',
+                    text: '基本功能',
                     collapsible: true,
-                    link: '/StockProfolioDocs/Category_2/test1.md',
                     children: [
-                        '/StockProfolioDocs/Category_2/test1.md',
-                        '/StockProfolioDocs/Category_2/test2.md',
+                        '/StockProfolioDocs/Introduction/Introduction1.md',
+                        '/StockProfolioDocs/Introduction/Introduction2.md',
                     ]
-                }
+                },
+                {
+                    text: '進階功能',
+                    collapsible: true,
+                    // link: '/StockProfolioDocs/PayOnly/test1.md',
+                    children: [
+                        '/StockProfolioDocs/PayOnly/test1.md',
+                        '/StockProfolioDocs/PayOnly/test2.md',
+                    ]
+                },
             ],
         }
     },
@@ -82,5 +95,12 @@ export default defineUserConfig<DefaultThemeOptions>({
                 },
             },
         ],
+        // [
+        //     new GoogleFontsPlugin({
+        //         fonts: [
+        //             { family: "Source Sans Pro" }
+        //         ]
+        //     })
+        // ],
     ],
 })

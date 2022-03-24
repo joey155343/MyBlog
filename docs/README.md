@@ -1,23 +1,25 @@
 ---
-lang: zh-CN
+lang: zh-TW
 title: 頁面的標題
 description: 頁面的描述
 home: true
-# heroImage: /hero.png
+# heroImage: /images/台股付費版-儀表板.jpg
 heroText: Vue 標題
 tagline: Vue 副標題
 actionText: 快速上手 →
 actionLink: /StockProfolioDocs/
+
 actions:
   - text: 快速上手 →
     link: /StockProfolioDocs/
     type: primary
-  - text: 使用指南
+  - text: 範本預覽
     link: /guide/
     type: secondary
+
 features:
 - title: 自動更新股票成交價
-  details: 開啟後自動抓取最新成交價(非即時)，以利後續各種計算。
+  details: 開啟後自動抓取最新成交價(非即時)，以利後續各種損益計算。
 - title: 多種視覺化圖表
   details: 享受一切數據自動計算並與圖表連動，一開啟便自動更新圖表數據。
 - title: 自動計算損益&報酬率
@@ -28,7 +30,35 @@ features:
   details: 靈活的設計使的本表可以同時管理不同的券商並設定不同的折讓手續費，也能看各券商/分類的占比圖。
 - title: 自動記錄市值變化
   details: 每周五盤後，會將當下的成本、市值、未實現損益等記錄下來。當時間拉長，可以觀察到自己投資的曲線變化，是付費版的其中一個大功能！
+
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-### 讓管理股票像數 1, 2, 3 一樣容易
+### 只要4步驟，讓管理股票像數 1, 2, 3 一樣容易
+
+#### 1. 點選 [`建立副本用`](https://octodex.github.com/images/minion.png) 的連結
+
+   ::: tip 收費版： 在確認收款後將會透過Google寄出系統email，信件內含可建立收費版的連結
+   :::
+
+#### 2. 點選按鈕 `建立副本`
+
+#### 3. 給自己的管理表一個新的名子
+   ::: tip 將「全自動股票管理表 | 免費版 - 副本」← 改名
+   :::
+
+#### 4. 啟用一鍵更新 ( 含自動取價 )
+   - 點選【儀表版】分頁的按鈕 __`更新交易紀錄`__ → 點選 __「進階」__ → 點選  __「前往取得股票現價(不安全)」__ → 點選按鈕 __`允許`__
+   - 允許後再次點選【儀表版】分頁的按鈕 __`更新交易紀錄`__，確認功能正常
+   
+   ::: details 啟用示意圖
+   ![授權步驟1](/images/授權步驟1.jpg)
+   ![授權步驟2](/images/授權步驟2.jpg)
+   ![授權步驟3](/images/授權步驟3.jpg)
+   :::
+
+   ::: warning 💡 如有安全上的疑慮，請勿使用此範本。因為不授權基本上這份範本主要功能都不能使用
+   ps. 所有非Google的原生功能(額外添加的)，Google一律會跳出此警告
+   :::
+
+#### 5. 開始使用 
