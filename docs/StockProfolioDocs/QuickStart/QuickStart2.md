@@ -1,5 +1,7 @@
 # 快速上手
 
+  ![](../../.vuepress/public/images/台股付費版-儀表板(含分頁).jpg)
+
 ## 各版本預覽
 
   - 預覽用 [台股免費版](https://docs.google.com/spreadsheets/d/1ykPXyjFSCEZon7MEuOiDpEK1hdW1JQH5VGCnbtaAmDQ) → 

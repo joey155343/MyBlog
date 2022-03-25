@@ -74,6 +74,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                     children: [
                         '/StockProfolioDocs/Introduction/Introduction1.md',
                         '/StockProfolioDocs/Introduction/Introduction2.md',
+                        '/StockProfolioDocs/Introduction/Introduction0.md',
                     ]
                 },
                 {
