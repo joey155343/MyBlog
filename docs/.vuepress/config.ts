@@ -1,7 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
-// import { GoogleFontsPlugin  } from "google-fonts-webpack-plugin"
-// const GoogleFontsPlugin = require("google-fonts-webpack-plugin");
+
 export default defineUserConfig<DefaultThemeOptions>({
     // 站点配置
     // lang: 'en-US',
@@ -35,7 +34,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             {
                 text: '指南',
                 children: [
-                    { text: '快速上手', link: '/StockProfolioDocs/README.md', },  //item： 子導航
+                    { text: '快速上手', link: '/StockProfolioDocs/QuickStart/QuickStart1.md', activeMatch: '^/StockProfolioDocs/QuickStart/',  },
                     { text: '基本功能介紹', link: '/StockProfolioDocs/Introduction/Introduction1.md', activeMatch: '^/StockProfolioDocs/Introduction/',  },
                     { text: '收費版限定功能', link: '/StockProfolioDocs/PayOnly/test1.md', activeMatch: '^/StockProfolioDocs/PayOnly/', },
                 ]
@@ -59,8 +58,16 @@ export default defineUserConfig<DefaultThemeOptions>({
         // sidebar: 'auto',
         sidebar: {
             '/StockProfolioDocs/': [
-                '/StockProfolioDocs/',
+                // '/StockProfolioDocs/',
                 // '/StockProfolioDocs/Introduction/',
+                {
+                    text: '快速上手',
+                    collapsible: true,
+                    children: [
+                        '/StockProfolioDocs/QuickStart/QuickStart1.md',
+                        '/StockProfolioDocs/QuickStart/QuickStart2.md',
+                    ]
+                },
                 {
                     text: '基本功能',
                     collapsible: true,
@@ -95,12 +102,5 @@ export default defineUserConfig<DefaultThemeOptions>({
                 },
             },
         ],
-        // [
-        //     new GoogleFontsPlugin({
-        //         fonts: [
-        //             { family: "Source Sans Pro" }
-        //         ]
-        //     })
-        // ],
     ],
 })

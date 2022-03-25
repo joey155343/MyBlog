@@ -11,7 +11,7 @@ actionLink: /StockProfolioDocs/
 
 actions:
   - text: 快速上手 →
-    link: /StockProfolioDocs/
+    link: /StockProfolioDocs/QuickStart/QuickStart2
     type: primary
   - text: 範本預覽
     link: /guide/
@@ -34,24 +34,22 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-### 只要4步驟，讓管理股票像數 1, 2, 3 一樣容易
+### 只要3步驟，讓管理股票像數 1, 2, 3 一樣容易
 
-#### 1. 點選 [`建立副本用`](https://octodex.github.com/images/minion.png) 的連結
-
+#### 1. 點選連結 [`建立副本用`](https://docs.google.com/spreadsheets/d/1rchpA3W-BlDn8BZOhQ1uiUPnuHLb4UZ65iLzjHb-cp0/copy) → 點選按鈕 `建立副本`
    ::: tip 收費版： 在確認收款後將會透過Google寄出系統email，信件內含可建立收費版的連結
    :::
 
-#### 2. 點選按鈕 `建立副本`
-
-#### 3. 給自己的管理表一個新的名子
+#### 2. 給自己的管理表一個新的名子
    ::: tip 將「全自動股票管理表 | 免費版 - 副本」← 改名
    :::
 
-#### 4. 啟用一鍵更新 ( 含自動取價 )
-   - 點選【儀表版】分頁的按鈕 __`更新交易紀錄`__ → 點選 __「進階」__ → 點選  __「前往取得股票現價(不安全)」__ → 點選按鈕 __`允許`__
+#### 3. 啟用一鍵更新 ( 含自動取價 )
+   - 在試算表內點選【儀表版】分頁的按鈕 __`更新交易紀錄`__ → 點選 __「進階」__ → 點選  __「前往取得股票現價(不安全)」__ → 點選按鈕 __`允許`__
    - 允許後再次點選【儀表版】分頁的按鈕 __`更新交易紀錄`__，確認功能正常
    
    ::: details 啟用示意圖
+   ![儀表板按鈕](/images/更新交易紀錄按鈕.jpg)
    ![授權步驟1](/images/授權步驟1.jpg)
    ![授權步驟2](/images/授權步驟2.jpg)
    ![授權步驟3](/images/授權步驟3.jpg)
@@ -61,4 +59,4 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
    ps. 所有非Google的原生功能(額外添加的)，Google一律會跳出此警告
    :::
 
-#### 5. 開始使用 
+#### 開始使用 
