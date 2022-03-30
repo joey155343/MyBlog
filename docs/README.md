@@ -11,10 +11,10 @@ actionLink: /StockProfolioDocs/
 
 actions:
   - text: 快速上手 →
-    link: /StockProfolioDocs/QuickStart/QuickStart2
+    link: /StockProfolioDocs/QuickStart/快速上手.md
     type: primary
   - text: 範本預覽
-    link: /guide/
+    link: /StockProfolioDocs/QuickStart/快速上手.md#各版本預覽
     type: secondary
 
 features:

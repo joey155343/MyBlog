@@ -34,9 +34,9 @@ export default defineUserConfig<DefaultThemeOptions>({
             {
                 text: '指南',
                 children: [
-                    { text: '快速上手', link: '/StockProfolioDocs/QuickStart/QuickStart1.md', activeMatch: '^/StockProfolioDocs/QuickStart/',  },
-                    { text: '基本功能介紹', link: '/StockProfolioDocs/Introduction/Introduction1.md', activeMatch: '^/StockProfolioDocs/Introduction/',  },
-                    { text: '收費版限定功能', link: '/StockProfolioDocs/PayOnly/test1.md', activeMatch: '^/StockProfolioDocs/PayOnly/', },
+                    { text: '快速上手', link: '/StockProfolioDocs/QuickStart/介紹.md', activeMatch: '^/StockProfolioDocs/QuickStart/',  },
+                    { text: '基本功能', link: '/StockProfolioDocs/Introduction/儀表板.md', activeMatch: '^/StockProfolioDocs/Introduction/',  },
+                    { text: '進階功能', link: '/StockProfolioDocs/PayOnly/進階功能簡介.md', activeMatch: '^/StockProfolioDocs/PayOnly/', },
                 ]
             },
             {
@@ -64,26 +64,28 @@ export default defineUserConfig<DefaultThemeOptions>({
                     text: '快速上手',
                     collapsible: true,
                     children: [
-                        '/StockProfolioDocs/QuickStart/QuickStart1.md',
-                        '/StockProfolioDocs/QuickStart/QuickStart2.md',
+                        '/StockProfolioDocs/QuickStart/介紹.md',
+                        '/StockProfolioDocs/QuickStart/快速上手.md',
                     ]
                 },
                 {
                     text: '基本功能',
                     collapsible: true,
                     children: [
-                        '/StockProfolioDocs/Introduction/Introduction1.md',
-                        '/StockProfolioDocs/Introduction/Introduction2.md',
+                        '/StockProfolioDocs/Introduction/儀表板.md',
+                        '/StockProfolioDocs/Introduction/交易紀錄.md',
+                        '/StockProfolioDocs/Introduction/損益.md',
                         '/StockProfolioDocs/Introduction/Introduction0.md',
                     ]
                 },
                 {
-                    text: '進階功能',
+                    text: '⭐進階功能',
                     collapsible: true,
                     // link: '/StockProfolioDocs/PayOnly/test1.md',
                     children: [
-                        '/StockProfolioDocs/PayOnly/test1.md',
-                        '/StockProfolioDocs/PayOnly/test2.md',
+                        '/StockProfolioDocs/PayOnly/進階簡介.md',
+                        '/StockProfolioDocs/PayOnly/購買.md',
+                        '/StockProfolioDocs/PayOnly/功能.md',
                     ]
                 },
             ],

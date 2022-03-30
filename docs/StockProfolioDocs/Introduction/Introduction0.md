@@ -1,6 +1,13 @@
 # Introduction0
 # 基本功能介紹
 
+---
+在markdown使用vue
+一加一等于： {{ 1 + 1 }}
+
+<span v-for="i in 3"> span: {{ i }} </span>
+
+---
 category_1
 
 __Advertisement :)__
