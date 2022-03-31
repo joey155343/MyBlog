@@ -51,7 +51,8 @@ export default defineUserConfig<DefaultThemeOptions>({
             {
                 text: 'Contact',
                 children: [
-                    { text: 'GitHub', link: 'https://github.com/recoluan' }
+                    { text: 'GitHub', link: 'https://github.com/recoluan' },
+                    { text: 'Markdown語法', link: '/StockProfolioDocs/Introduction/Introduction0.md'},
                 ]
             }
         ],
@@ -74,8 +75,9 @@ export default defineUserConfig<DefaultThemeOptions>({
                     children: [
                         '/StockProfolioDocs/Introduction/儀表板.md',
                         '/StockProfolioDocs/Introduction/交易紀錄.md',
-                        '/StockProfolioDocs/Introduction/損益.md',
-                        '/StockProfolioDocs/Introduction/Introduction0.md',
+                        '/StockProfolioDocs/Introduction/持股&歷史損益.md',
+                        '/StockProfolioDocs/Introduction/券商與分類.md',
+                        '/StockProfolioDocs/Introduction/股票代號.md',
                     ]
                 },
                 {
