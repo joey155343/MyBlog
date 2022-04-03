@@ -7,6 +7,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     lang: 'zh-TW',
     title: '全自動股票管理表',
     description: 'Just playing around',
+    base: '/MyBlog/',
 
     // 主题和它的配置
     theme: '@vuepress/theme-default',
@@ -45,16 +46,17 @@ export default defineUserConfig<DefaultThemeOptions>({
                     { text: '台股免費版', link: '/StockProfolioDocs/' },
                     { text: '台股付費版', link: '/StockProfolioDocs/' },
                     { text: '美股付費版', link: '/StockProfolioDocs/' },
-                    { text: '客製化版(含範例)', link: '/StockProfolioDocs/' },
+                    { text: '客製化(含範例)', link: '/StockProfolioDocs/' },
                 ]
             },
             {
                 text: 'Contact',
                 children: [
-                    { text: 'GitHub', link: 'https://github.com/recoluan' },
+                    { text: '懶魚', link: '/' },
                     { text: 'Markdown語法', link: '/StockProfolioDocs/Introduction/Introduction0.md'},
                 ]
-            }
+            },
+            { text: '贊助', link: 'https://payment.ecpay.com.tw/Broadcaster/Donate/C014318DF58EE9F80D220D97FB4FE5C8' },
         ],
         // sidebar: 'auto',
         sidebar: {
